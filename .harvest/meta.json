@@ -1,0 +1,2202 @@
+[
+  {
+    "key": "accessToken",
+    "rawValue": "'access_token'",
+    "filePath": "lib/src/features/login/data/datasources/login_romote_datasource.dart"
+  },
+  {
+    "key": "add",
+    "rawValue": "\"Add\"",
+    "filePath": "lib/src/features/contacts/presentation/pages/contacts_view.dart"
+  },
+  {
+    "key": "add1",
+    "rawValue": "'Add'",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "addAttachment",
+    "rawValue": "'Add Attachment'",
+    "filePath": "lib/src/features/forward/presentation/pages/forward_view.dart"
+  },
+  {
+    "key": "addEvent",
+    "rawValue": "'Add Event'",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "ae",
+    "rawValue": "'AE'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "affected",
+    "rawValue": "'affected'",
+    "filePath": "lib/src/features/contacts/data/datasources/contacts_datasource.dart"
+  },
+  {
+    "key": "affected",
+    "rawValue": "'affected'",
+    "filePath": "lib/src/features/calender/data/datasources/events_datasource.dart"
+  },
+  {
+    "key": "aHarvestedText",
+    "rawValue": "'/'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "aHarvestedText",
+    "rawValue": "'/'",
+    "filePath": "lib/src/features/compose/presentation/widgets/select_attatchments.dart"
+  },
+  {
+    "key": "aHarvestedText",
+    "rawValue": "'/'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/login/data/models/login_model.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/login/data/repositories/login_repository_impl.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/login/data/datasources/login_romote_datasource.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/info_box_widget.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_sender_info.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/attached_file_widget.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/feature/data/datasources/remote_datasource.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/contacts/data/repositories/contacts_repo_impl.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/contacts/data/datasources/contacts_datasource.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/compose/presentation/widgets/mail_editor.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/compose/presentation/widgets/compose_widgets.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/splash/presentation/pages/splash_screen.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/calender/presentation/cubit/events_cubit.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/calender/data/repositories/events_repo_impl.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/calender/data/datasources/events_datasource.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/inbox_view/data/repositories/message_repo_impl.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "aHarvestedText1",
+    "rawValue": "''",
+    "filePath": "lib/src/features/inbox_view/presentation/cubit/inbox_view_cubit.dart"
+  },
+  {
+    "key": "aHarvestedText2",
+    "rawValue": "'.'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "aHarvestedText3",
+    "rawValue": "\"\t•\t\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/info_box_widget.dart"
+  },
+  {
+    "key": "aHarvestedText4",
+    "rawValue": "']}'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "aHarvestedText5",
+    "rawValue": "\"\"",
+    "filePath": "lib/src/features/compose/presentation/widgets/mail_editor.dart"
+  },
+  {
+    "key": "aHarvestedText5",
+    "rawValue": "\"\"",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "aHarvestedText6",
+    "rawValue": "\"*\"",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "appInDetached",
+    "rawValue": "\"app in detached\"",
+    "filePath": "lib/src/features/feature/presentation/pages/screen.dart"
+  },
+  {
+    "key": "appInInactive",
+    "rawValue": "\"app in inactive\"",
+    "filePath": "lib/src/features/feature/presentation/pages/screen.dart"
+  },
+  {
+    "key": "appInPaused",
+    "rawValue": "\"app in paused\"",
+    "filePath": "lib/src/features/feature/presentation/pages/screen.dart"
+  },
+  {
+    "key": "appInResumed",
+    "rawValue": "\"app in resumed\"",
+    "filePath": "lib/src/features/feature/presentation/pages/screen.dart"
+  },
+  {
+    "key": "ar",
+    "rawValue": "'ar'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "archive",
+    "rawValue": "'Archive'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "areYouSureYouWantToDeleteThisMail",
+    "rawValue": "'Are you sure you want to delete this mail?'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "attachFile",
+    "rawValue": "'Attach File'",
+    "filePath": "lib/src/features/reply/presentation/pages/reply_mail.dart"
+  },
+  {
+    "key": "attachmentGDart",
+    "rawValue": "'attachment.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/attachments_model/attachment.dart"
+  },
+  {
+    "key": "attachments",
+    "rawValue": "'attachments'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "attachmentsModelAttachmentDart",
+    "rawValue": "'attachments_model/attachment.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/mail.dart"
+  },
+  {
+    "key": "authId",
+    "rawValue": "'authId'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "avatar",
+    "rawValue": "'avatar'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "bobJohnson",
+    "rawValue": "'Bob Johnson'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "body",
+    "rawValue": "\"body\"",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "body1",
+    "rawValue": "'body'",
+    "filePath": "lib/src/features/inbox_view/data/models/message.dart"
+  },
+  {
+    "key": "boxMailsModelGDart",
+    "rawValue": "'box_mails_model.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/box_mails_model.dart"
+  },
+  {
+    "key": "cahHfHBwOpLuOFxcudBQemR0Akj62pvcZkk98S0LpzsRl4XGMailGmailCom",
+    "rawValue": "'<CAHHfHBwOPLuOFxcud=BQem_r0Akj62pvcZKK98S0LpzsRL4X-g@mail.gmail.com>'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "calendar",
+    "rawValue": "'Calendar'",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "calendar",
+    "rawValue": "'Calendar'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/app_drawer.dart"
+  },
+  {
+    "key": "calenderPresentationCubitEventsCubitDart",
+    "rawValue": "'calender/presentation/cubit/events_cubit.dart'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "cancel",
+    "rawValue": "'CANCEL'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "ccDart",
+    "rawValue": "'cc.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/mail.dart"
+  },
+  {
+    "key": "ccGDart",
+    "rawValue": "'cc.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/cc.dart"
+  },
+  {
+    "key": "checkOutOurNewProductsAndGetADiscount",
+    "rawValue": "'Check out our new products and get a discount.'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "clearHistory",
+    "rawValue": "'Clear History'",
+    "filePath": "lib/src/features/compose/presentation/widgets/mail_editor.dart"
+  },
+  {
+    "key": "code",
+    "rawValue": "'code'",
+    "filePath": "lib/src/features/login/data/models/forget_password/forget_password.dart"
+  },
+  {
+    "key": "coins",
+    "rawValue": "'coins'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "compose",
+    "rawValue": "\"Compose\"",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "composeCubitDart",
+    "rawValue": "'compose_cubit.dart'",
+    "filePath": "lib/src/features/compose/presentation/cubit/compose_state.dart"
+  },
+  {
+    "key": "composeEmail",
+    "rawValue": "'Compose email'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "composeInputGDart",
+    "rawValue": "'compose_input.g.dart'",
+    "filePath": "lib/src/features/mail_details/data/models/compose_input.dart"
+  },
+  {
+    "key": "composeStateDart",
+    "rawValue": "'compose_state.dart'",
+    "filePath": "lib/src/features/compose/presentation/cubit/compose_cubit.dart"
+  },
+  {
+    "key": "configConstantsDart",
+    "rawValue": "'../../../../config/constants.dart'",
+    "filePath": "lib/src/features/login/presentation/pages/login_screen.dart"
+  },
+  {
+    "key": "configConstantsDart",
+    "rawValue": "'../../../../config/constants.dart'",
+    "filePath": "lib/src/features/login/presentation/cubit/login_cubit.dart"
+  },
+  {
+    "key": "configConstantsDart",
+    "rawValue": "'../../../../config/constants.dart'",
+    "filePath": "lib/src/features/login/data/datasources/login_romote_datasource.dart"
+  },
+  {
+    "key": "configConstantsDart",
+    "rawValue": "'../../../../config/constants.dart'",
+    "filePath": "lib/src/features/contacts/presentation/cubit/contacts_cubit.dart"
+  },
+  {
+    "key": "configConstantsDart",
+    "rawValue": "'../../../../config/constants.dart'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "configConstantsDart",
+    "rawValue": "'../../../../config/constants.dart'",
+    "filePath": "lib/src/features/splash/presentation/pages/splash_screen.dart"
+  },
+  {
+    "key": "configConstantsDart",
+    "rawValue": "'../../../../config/constants.dart'",
+    "filePath": "lib/src/features/calender/presentation/cubit/events_cubit.dart"
+  },
+  {
+    "key": "configRoutesRoutesManagerDart",
+    "rawValue": "'../../../../config/routes/routes_manager.dart'",
+    "filePath": "lib/src/features/login/presentation/pages/login_screen.dart"
+  },
+  {
+    "key": "configRoutesRoutesManagerDart",
+    "rawValue": "'../../../../config/routes/routes_manager.dart'",
+    "filePath": "lib/src/features/splash/presentation/pages/splash_screen.dart"
+  },
+  {
+    "key": "configRoutesRoutesManagerDart",
+    "rawValue": "'../../../../config/routes/routes_manager.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "configRoutesRoutesManagerDart1",
+    "rawValue": "'../config/routes/routes_manager.dart'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "configThemesThemeManagerDart",
+    "rawValue": "'../config/themes/theme_manager.dart'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "confirm",
+    "rawValue": "'Confirm'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "contactGDart",
+    "rawValue": "'contact.g.dart'",
+    "filePath": "lib/src/features/contacts/data/models/contact/contact.dart"
+  },
+  {
+    "key": "contacts",
+    "rawValue": "\"Contacts\"",
+    "filePath": "lib/src/features/contacts/presentation/pages/contacts_view.dart"
+  },
+  {
+    "key": "contacts1",
+    "rawValue": "'Contacts'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/app_drawer.dart"
+  },
+  {
+    "key": "contactsCubitDart",
+    "rawValue": "'contacts_cubit.dart'",
+    "filePath": "lib/src/features/contacts/presentation/cubit/contacts_state.dart"
+  },
+  {
+    "key": "contactsPresentationCubitContactsCubitDart",
+    "rawValue": "'contacts/presentation/cubit/contacts_cubit.dart'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "contactsRepoDart",
+    "rawValue": "'contacts_repo.dart'",
+    "filePath": "lib/src/features/contacts/data/repositories/contacts_repo_impl.dart"
+  },
+  {
+    "key": "contactsStateDart",
+    "rawValue": "'contacts_state.dart'",
+    "filePath": "lib/src/features/contacts/presentation/cubit/contacts_cubit.dart"
+  },
+  {
+    "key": "contentDart",
+    "rawValue": "'content.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/attachments_model/attachment.dart"
+  },
+  {
+    "key": "contentGDart",
+    "rawValue": "'content.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/attachments_model/content.dart"
+  },
+  {
+    "key": "coreErrorErrorHandlerDart",
+    "rawValue": "'../../../../core/error/error_handler.dart'",
+    "filePath": "lib/src/features/login/presentation/cubit/login_cubit.dart"
+  },
+  {
+    "key": "coreErrorErrorHandlerDart",
+    "rawValue": "'../../../../core/error/error_handler.dart'",
+    "filePath": "lib/src/features/login/data/repositories/login_repository_impl.dart"
+  },
+  {
+    "key": "coreErrorErrorHandlerDart",
+    "rawValue": "'../../../../core/error/error_handler.dart'",
+    "filePath": "lib/src/features/login/data/datasources/login_romote_datasource.dart"
+  },
+  {
+    "key": "coreErrorErrorHandlerDart",
+    "rawValue": "'../../../../core/error/error_handler.dart'",
+    "filePath": "lib/src/features/feature/data/repositories/repository_impl.dart"
+  },
+  {
+    "key": "coreErrorErrorHandlerDart",
+    "rawValue": "'../../../../core/error/error_handler.dart'",
+    "filePath": "lib/src/features/contacts/data/repositories/contacts_repo_impl.dart"
+  },
+  {
+    "key": "coreErrorErrorHandlerDart",
+    "rawValue": "'../../../../core/error/error_handler.dart'",
+    "filePath": "lib/src/features/contacts/data/datasources/contacts_datasource.dart"
+  },
+  {
+    "key": "coreErrorErrorHandlerDart",
+    "rawValue": "'../../../../core/error/error_handler.dart'",
+    "filePath": "lib/src/features/calender/data/repositories/events_repo_impl.dart"
+  },
+  {
+    "key": "coreErrorErrorHandlerDart",
+    "rawValue": "'../../../../core/error/error_handler.dart'",
+    "filePath": "lib/src/features/calender/data/datasources/events_datasource.dart"
+  },
+  {
+    "key": "coreErrorErrorHandlerDart",
+    "rawValue": "'../../../../core/error/error_handler.dart'",
+    "filePath": "lib/src/features/inbox_view/data/repositories/message_repo_impl.dart"
+  },
+  {
+    "key": "coreErrorErrorHandlerDart",
+    "rawValue": "'../../../../core/error/error_handler.dart'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/login/presentation/cubit/login_cubit.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/login/data/repositories/login_repository_impl.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/login/data/repositories/login_repo.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/login/data/datasources/login_romote_datasource.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/feature/data/repositories/repository.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/contacts/data/repositories/contacts_repo_impl.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/contacts/data/repositories/contacts_repo.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/contacts/data/datasources/contacts_datasource.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/calender/data/repositories/events_repo.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/calender/data/repositories/events_repo_impl.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/calender/data/datasources/events_datasource.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/inbox_view/data/repositories/message_repo_impl.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/inbox_view/data/repositories/message_repo.dart"
+  },
+  {
+    "key": "coreErrorFailureDart",
+    "rawValue": "'../../../../core/error/failure.dart'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "coreNetworkDioFactoryDart",
+    "rawValue": "'../../../../core/network/dio_factory.dart'",
+    "filePath": "lib/src/features/login/data/datasources/login_romote_datasource.dart"
+  },
+  {
+    "key": "coreNetworkDioFactoryDart",
+    "rawValue": "'../../../../core/network/dio_factory.dart'",
+    "filePath": "lib/src/features/contacts/data/datasources/contacts_datasource.dart"
+  },
+  {
+    "key": "coreNetworkDioFactoryDart",
+    "rawValue": "'../../../../core/network/dio_factory.dart'",
+    "filePath": "lib/src/features/calender/data/datasources/events_datasource.dart"
+  },
+  {
+    "key": "coreNetworkDioFactoryDart",
+    "rawValue": "'../../../../core/network/dio_factory.dart'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "coreNetworkNetworkInfoDart",
+    "rawValue": "'../../../../core/network/network_info.dart'",
+    "filePath": "lib/src/features/feature/presentation/pages/screen.dart"
+  },
+  {
+    "key": "coreNetworkNetworkInfoDart",
+    "rawValue": "'../../../../core/network/network_info.dart'",
+    "filePath": "lib/src/features/login/data/repositories/login_repository_impl.dart"
+  },
+  {
+    "key": "coreNetworkNetworkInfoDart",
+    "rawValue": "'../../../../core/network/network_info.dart'",
+    "filePath": "lib/src/features/feature/data/repositories/repository_impl.dart"
+  },
+  {
+    "key": "coreUtilsAssetsManagerDart",
+    "rawValue": "'../../../../core/utils/assets_manager.dart'",
+    "filePath": "lib/src/features/splash/presentation/pages/splash_screen.dart"
+  },
+  {
+    "key": "coreUtilsColorManagerDart",
+    "rawValue": "'../../../../core/utils/color_manager.dart'",
+    "filePath": "lib/src/features/login/presentation/widgets/text_form_filed.dart"
+  },
+  {
+    "key": "coreUtilsColorManagerDart",
+    "rawValue": "'../../../../core/utils/color_manager.dart'",
+    "filePath": "lib/src/features/login/presentation/widgets/text_form_filed_password.dart"
+  },
+  {
+    "key": "coreUtilsColorManagerDart",
+    "rawValue": "'../../../../core/utils/color_manager.dart'",
+    "filePath": "lib/src/features/login/presentation/pages/login_screen.dart"
+  },
+  {
+    "key": "coreUtilsColorManagerDart",
+    "rawValue": "'../../../../core/utils/color_manager.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/custom_button.dart"
+  },
+  {
+    "key": "coreUtilsColorManagerDart",
+    "rawValue": "'../../../../core/utils/color_manager.dart'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "coreUtilsColorManagerDart",
+    "rawValue": "'../../../../core/utils/color_manager.dart'",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "coreUtilsColorManagerDart",
+    "rawValue": "'../../../../core/utils/color_manager.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "coreUtilsColorManagerDart",
+    "rawValue": "'../../../../core/utils/color_manager.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "coreUtilsFontManagerDart",
+    "rawValue": "'../../../../core/utils/font_manager.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "coreUtilsSingleTouchDart",
+    "rawValue": "'../core/utils/single_touch.dart'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "coreUtilsStringsManagerDart",
+    "rawValue": "'../../../../core/utils/strings_manager.dart'",
+    "filePath": "lib/src/features/login/presentation/pages/login_screen.dart"
+  },
+  {
+    "key": "coreUtilsStringsManagerDart",
+    "rawValue": "'../../../../core/utils/strings_manager.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "coreUtilsStringsManagerDart",
+    "rawValue": "'../../../../core/utils/strings_manager.dart'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "coreUtilsStringsManagerDart",
+    "rawValue": "'../../../../core/utils/strings_manager.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "coreUtilsStringsManagerDart1",
+    "rawValue": "'../core/utils/strings_manager.dart'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "coreUtilsStylesManagerDart",
+    "rawValue": "'../../../../core/utils/styles_manager.dart'",
+    "filePath": "lib/src/features/login/presentation/widgets/text_form_filed.dart"
+  },
+  {
+    "key": "coreUtilsStylesManagerDart",
+    "rawValue": "'../../../../core/utils/styles_manager.dart'",
+    "filePath": "lib/src/features/login/presentation/widgets/text_form_filed_password.dart"
+  },
+  {
+    "key": "coreUtilsStylesManagerDart",
+    "rawValue": "'../../../../core/utils/styles_manager.dart'",
+    "filePath": "lib/src/features/login/presentation/pages/login_screen.dart"
+  },
+  {
+    "key": "coreUtilsStylesManagerDart",
+    "rawValue": "'../../../../core/utils/styles_manager.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "coreUtilsValuesManagerDart",
+    "rawValue": "'../../../../core/utils/values_manager.dart'",
+    "filePath": "lib/src/features/login/presentation/widgets/text_form_filed_password.dart"
+  },
+  {
+    "key": "coreUtilsValuesManagerDart",
+    "rawValue": "'../../../../core/utils/values_manager.dart'",
+    "filePath": "lib/src/features/login/presentation/pages/login_screen.dart"
+  },
+  {
+    "key": "coreUtilsValuesManagerDart",
+    "rawValue": "'../../../../core/utils/values_manager.dart'",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "coreUtilsValuesManagerDart",
+    "rawValue": "'../../../../core/utils/values_manager.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "coreUtilsValuesManagerDart",
+    "rawValue": "'../../../../core/utils/values_manager.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "coreWidgetsCustomClickDart",
+    "rawValue": "'../../../../core/widgets/custom_click.dart'",
+    "filePath": "lib/src/features/login/presentation/pages/login_screen.dart"
+  },
+  {
+    "key": "coreWidgetsWrongDart",
+    "rawValue": "'../../../../core/widgets/wrong.dart'",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "createdAt",
+    "rawValue": "'createdAt'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "cubitInboxViewCubitDart",
+    "rawValue": "'../cubit/inbox_view_cubit.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "cubitLoginCubitDart",
+    "rawValue": "'../cubit/login_cubit.dart'",
+    "filePath": "lib/src/features/login/presentation/pages/login_screen.dart"
+  },
+  {
+    "key": "cubitScreenCubitDart",
+    "rawValue": "'../cubit/screen_cubit.dart'",
+    "filePath": "lib/src/features/feature/presentation/pages/screen.dart"
+  },
+  {
+    "key": "dataModelsComposeInputDart",
+    "rawValue": "'../../data/models/compose_input.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "dataModelsContactContactDart",
+    "rawValue": "'../../data/models/contact/contact.dart'",
+    "filePath": "lib/src/features/contacts/presentation/pages/contacts_view.dart"
+  },
+  {
+    "key": "dataModelsContactContactDart",
+    "rawValue": "'../../data/models/contact/contact.dart'",
+    "filePath": "lib/src/features/contacts/presentation/cubit/contacts_cubit.dart"
+  },
+  {
+    "key": "dataModelsEventEventDart",
+    "rawValue": "'../../data/models/event/event.dart'",
+    "filePath": "lib/src/features/calender/presentation/cubit/events_cubit.dart"
+  },
+  {
+    "key": "dataModelsFileTypeDart",
+    "rawValue": "'../../data/models/file_type.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "dataModelsFileTypeDart",
+    "rawValue": "'../../data/models/file_type.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/attached_file_widget.dart"
+  },
+  {
+    "key": "dataModelsLoginDart",
+    "rawValue": "'../../data/models/login.dart'",
+    "filePath": "lib/src/features/login/presentation/cubit/login_cubit.dart"
+  },
+  {
+    "key": "dataModelsMailModelMailDart",
+    "rawValue": "'../../data/models/mail_model/mail.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "dataModelsSenderInfoDart",
+    "rawValue": "'../../data/models/sender_info.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "dataRepositoriesContactsRepoDart",
+    "rawValue": "'../../data/repositories/contacts_repo.dart'",
+    "filePath": "lib/src/features/contacts/presentation/cubit/contacts_cubit.dart"
+  },
+  {
+    "key": "dataRepositoriesEventsRepoDart",
+    "rawValue": "'../../data/repositories/events_repo.dart'",
+    "filePath": "lib/src/features/calender/presentation/cubit/events_cubit.dart"
+  },
+  {
+    "key": "dataRepositoriesLoginRepoDart",
+    "rawValue": "'../../data/repositories/login_repo.dart'",
+    "filePath": "lib/src/features/login/presentation/cubit/login_cubit.dart"
+  },
+  {
+    "key": "dataRepositoriesMessageRepoDart",
+    "rawValue": "'../../data/repositories/message_repo.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/cubit/inbox_view_cubit.dart"
+  },
+  {
+    "key": "datasourcesContactsDatasourceDart",
+    "rawValue": "'../datasources/contacts_datasource.dart'",
+    "filePath": "lib/src/features/contacts/data/repositories/contacts_repo_impl.dart"
+  },
+  {
+    "key": "datasourcesEventsDatasourceDart",
+    "rawValue": "'../datasources/events_datasource.dart'",
+    "filePath": "lib/src/features/calender/data/repositories/events_repo_impl.dart"
+  },
+  {
+    "key": "datasourcesLoginRomoteDatasourceDart",
+    "rawValue": "'../datasources/login_romote_datasource.dart'",
+    "filePath": "lib/src/features/login/data/repositories/login_repository_impl.dart"
+  },
+  {
+    "key": "datasourcesMessageDatasourceDart",
+    "rawValue": "'../datasources/message_datasource.dart'",
+    "filePath": "lib/src/features/inbox_view/data/repositories/message_repo_impl.dart"
+  },
+  {
+    "key": "datasourcesRemoteDatasourceDart",
+    "rawValue": "'../datasources/remote_datasource.dart'",
+    "filePath": "lib/src/features/feature/data/repositories/repository_impl.dart"
+  },
+  {
+    "key": "date",
+    "rawValue": "\"Date\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/info_box_widget.dart"
+  },
+  {
+    "key": "date1",
+    "rawValue": "'date'",
+    "filePath": "lib/src/features/inbox_view/data/models/message.dart"
+  },
+  {
+    "key": "ddMmmYyyyHhMmA",
+    "rawValue": "'dd MMM yyyy hh:mm a'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/info_box_widget.dart"
+  },
+  {
+    "key": "delete",
+    "rawValue": "'Delete'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "delete1",
+    "rawValue": "'DELETE'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "doc",
+    "rawValue": "'doc'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "docx",
+    "rawValue": "'docx'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "draft",
+    "rawValue": "\"Draft\"",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "drafts",
+    "rawValue": "'Drafts'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/app_drawer.dart"
+  },
+  {
+    "key": "edit",
+    "rawValue": "\"Edit\"",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "editorHasBeenLoaded",
+    "rawValue": "'Editor has been loaded'",
+    "filePath": "lib/src/features/compose/presentation/widgets/mail_editor.dart"
+  },
+  {
+    "key": "eeeeMmmmDY",
+    "rawValue": "'EEEE, MMMM d, y'",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "email",
+    "rawValue": "'email'",
+    "filePath": "lib/src/features/login/data/models/login_model.dart"
+  },
+  {
+    "key": "email",
+    "rawValue": "'email'",
+    "filePath": "lib/src/features/login/data/models/forget_password/forget_password.dart"
+  },
+  {
+    "key": "email",
+    "rawValue": "'email'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "email",
+    "rawValue": "'email'",
+    "filePath": "lib/src/features/feature/data/models/model.dart"
+  },
+  {
+    "key": "email1",
+    "rawValue": "\"Email\"",
+    "filePath": "lib/src/features/contacts/presentation/pages/contacts_view.dart"
+  },
+  {
+    "key": "emailIsRequired",
+    "rawValue": "'Email is required'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "en",
+    "rawValue": "'en'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "englishPersonalizedDigestQuoraCom",
+    "rawValue": "\"english-personalized-digest@quora.com\"",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "enterEmailAddress",
+    "rawValue": "'Enter email address'",
+    "filePath": "lib/src/features/forward/presentation/pages/forward_view.dart"
+  },
+  {
+    "key": "enterEmailAddress",
+    "rawValue": "'Enter email address'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "enterEmailSubject",
+    "rawValue": "'Enter email subject'",
+    "filePath": "lib/src/features/reply/presentation/pages/reply_mail.dart"
+  },
+  {
+    "key": "enterEventDescription",
+    "rawValue": "'Enter event Description'",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "enterEventName",
+    "rawValue": "'Enter event name'",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "enterMessage",
+    "rawValue": "'Enter message'",
+    "filePath": "lib/src/features/forward/presentation/pages/forward_view.dart"
+  },
+  {
+    "key": "enterRecipientEmail",
+    "rawValue": "'Enter recipient email'",
+    "filePath": "lib/src/features/reply/presentation/pages/reply_mail.dart"
+  },
+  {
+    "key": "enterSubject",
+    "rawValue": "'Enter subject'",
+    "filePath": "lib/src/features/forward/presentation/pages/forward_view.dart"
+  },
+  {
+    "key": "enterSubject",
+    "rawValue": "'Enter subject'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "errorInRemoteDs",
+    "rawValue": "'error in remote DS'",
+    "filePath": "lib/src/features/feature/data/datasources/remote_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDs",
+    "rawValue": "'error in remote DS'",
+    "filePath": "lib/src/features/contacts/data/datasources/contacts_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDs",
+    "rawValue": "'error in remote DS'",
+    "filePath": "lib/src/features/calender/data/datasources/events_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDs",
+    "rawValue": "'error in remote DS'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsInAddToDraftMail",
+    "rawValue": "'error in remote DS in addToDraftMail'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsInReplyTo",
+    "rawValue": "'error in remote DS in replyTo'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsInSendMail",
+    "rawValue": "'error in remote DS in sendMail'",
+    "filePath": "lib/src/features/contacts/data/datasources/contacts_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsInSendMail",
+    "rawValue": "'error in remote DS in sendMail'",
+    "filePath": "lib/src/features/calender/data/datasources/events_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsInSendMail",
+    "rawValue": "'error in remote DS in sendMail'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsWithRes",
+    "rawValue": "'error in remote DS with res'",
+    "filePath": "lib/src/features/feature/data/datasources/remote_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsWithRes",
+    "rawValue": "'error in remote DS with res'",
+    "filePath": "lib/src/features/contacts/data/datasources/contacts_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsWithRes",
+    "rawValue": "'error in remote DS with res'",
+    "filePath": "lib/src/features/calender/data/datasources/events_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsWithRes",
+    "rawValue": "'error in remote DS with res'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsWithResInAddToDraftMail",
+    "rawValue": "'error in remote DS with res in addToDraftMail'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsWithResInReplyTo",
+    "rawValue": "'error in remote DS with res in replyTo'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsWithResInSendMail",
+    "rawValue": "'error in remote DS with res in sendMail'",
+    "filePath": "lib/src/features/contacts/data/datasources/contacts_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsWithResInSendMail",
+    "rawValue": "'error in remote DS with res in sendMail'",
+    "filePath": "lib/src/features/calender/data/datasources/events_datasource.dart"
+  },
+  {
+    "key": "errorInRemoteDsWithResInSendMail",
+    "rawValue": "'error in remote DS with res in sendMail'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "errorInRepo",
+    "rawValue": "'error in repo'",
+    "filePath": "lib/src/features/feature/data/repositories/repository_impl.dart"
+  },
+  {
+    "key": "errorInRepo",
+    "rawValue": "'error in repo'",
+    "filePath": "lib/src/features/contacts/data/repositories/contacts_repo_impl.dart"
+  },
+  {
+    "key": "errorInRepo",
+    "rawValue": "'error in repo'",
+    "filePath": "lib/src/features/calender/data/repositories/events_repo_impl.dart"
+  },
+  {
+    "key": "errorInRepo",
+    "rawValue": "'error in repo'",
+    "filePath": "lib/src/features/inbox_view/data/repositories/message_repo_impl.dart"
+  },
+  {
+    "key": "errorInRepoInSendMail",
+    "rawValue": "'error in repo in sendMail'",
+    "filePath": "lib/src/features/inbox_view/data/repositories/message_repo_impl.dart"
+  },
+  {
+    "key": "eventGDart",
+    "rawValue": "'event.g.dart'",
+    "filePath": "lib/src/features/calender/data/models/event/event.dart"
+  },
+  {
+    "key": "eventsCubitDart",
+    "rawValue": "'events_cubit.dart'",
+    "filePath": "lib/src/features/calender/presentation/cubit/events_state.dart"
+  },
+  {
+    "key": "eventsRepoDart",
+    "rawValue": "'events_repo.dart'",
+    "filePath": "lib/src/features/calender/data/repositories/events_repo_impl.dart"
+  },
+  {
+    "key": "eventsStateDart",
+    "rawValue": "'events_state.dart'",
+    "filePath": "lib/src/features/calender/presentation/cubit/events_cubit.dart"
+  },
+  {
+    "key": "fileName",
+    "rawValue": "'fileName'",
+    "filePath": "lib/src/features/forward/presentation/pages/forward_view.dart"
+  },
+  {
+    "key": "fileTypeDart",
+    "rawValue": "'file_type.dart'",
+    "filePath": "lib/src/features/mail_details/data/models/mail_model.dart"
+  },
+  {
+    "key": "fileTypeDart",
+    "rawValue": "'file_type.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/attached_file_widget.dart"
+  },
+  {
+    "key": "forgetPasswordGDart",
+    "rawValue": "'forget_password.g.dart'",
+    "filePath": "lib/src/features/login/data/models/forget_password/forget_password.dart"
+  },
+  {
+    "key": "forward",
+    "rawValue": "\"Forward\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_actions.dart"
+  },
+  {
+    "key": "forward1",
+    "rawValue": "\"forward\"",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "forwardCubitDart",
+    "rawValue": "'forward_cubit.dart'",
+    "filePath": "lib/src/features/forward/presentation/cubit/forward_state.dart"
+  },
+  {
+    "key": "forwardEmail",
+    "rawValue": "'Forward Email'",
+    "filePath": "lib/src/features/forward/presentation/pages/forward_view.dart"
+  },
+  {
+    "key": "forwardStateDart",
+    "rawValue": "'forward_state.dart'",
+    "filePath": "lib/src/features/forward/presentation/cubit/forward_cubit.dart"
+  },
+  {
+    "key": "from",
+    "rawValue": "\"From\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/info_box_widget.dart"
+  },
+  {
+    "key": "from1",
+    "rawValue": "'From'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "from2",
+    "rawValue": "'from'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "fromDart",
+    "rawValue": "'from.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/mail.dart"
+  },
+  {
+    "key": "fromGDart",
+    "rawValue": "'from.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/from.dart"
+  },
+  {
+    "key": "getMailDetails",
+    "rawValue": "'get mail details'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "guest",
+    "rawValue": "'guest'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "headerLineDart",
+    "rawValue": "'header_line.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/mail.dart"
+  },
+  {
+    "key": "headerLineGDart",
+    "rawValue": "'header_line.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/header_line.dart"
+  },
+  {
+    "key": "headersDart",
+    "rawValue": "'headers.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/mail.dart"
+  },
+  {
+    "key": "headersDart",
+    "rawValue": "'headers.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/attachments_model/attachment.dart"
+  },
+  {
+    "key": "headersGDart",
+    "rawValue": "'headers.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/headers.dart"
+  },
+  {
+    "key": "headersGDart",
+    "rawValue": "'headers.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/attachments_model/headers.dart"
+  },
+  {
+    "key": "hMmA",
+    "rawValue": "'h:mm a'",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "html",
+    "rawValue": "'html'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "id",
+    "rawValue": "'_id'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "id1",
+    "rawValue": "'id'",
+    "filePath": "lib/src/features/inbox_view/data/models/message.dart"
+  },
+  {
+    "key": "iMAMediocreSoftwareEngineerCanIBeSuccessfulInCompaniesLikeFacebookGoogleUberEtcIPreparedLike",
+    "rawValue": "\"I’m a mediocre software engineer. Can I be successful in companies like Facebook, Google, Uber etc? I prepared like\"",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "inbox",
+    "rawValue": "\"Inbox\"",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "inbox1",
+    "rawValue": "'Inbox'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/app_drawer.dart"
+  },
+  {
+    "key": "inboxViewCubitDart",
+    "rawValue": "'inbox_view_cubit.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/cubit/inbox_view_state.dart"
+  },
+  {
+    "key": "inboxViewDataModelsMailModelMailDart",
+    "rawValue": "'../../../inbox_view/data/models/mail_model/mail.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/cubit/mail_details_cubit.dart"
+  },
+  {
+    "key": "inboxViewDataRepositoriesMessageRepoDart",
+    "rawValue": "'../../../inbox_view/data/repositories/message_repo.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/cubit/mail_details_cubit.dart"
+  },
+  {
+    "key": "inboxViewPresentationCubitInboxViewCubitDart",
+    "rawValue": "'inbox_view/presentation/cubit/inbox_view_cubit.dart'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "inboxViewPresentationCubitInboxViewCubitDart1",
+    "rawValue": "'../../../inbox_view/presentation/cubit/inbox_view_cubit.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "inboxViewPresentationCubitInboxViewCubitDart1",
+    "rawValue": "'../../../inbox_view/presentation/cubit/inbox_view_cubit.dart'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "inboxViewStateDart",
+    "rawValue": "'inbox_view_state.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/cubit/inbox_view_cubit.dart"
+  },
+  {
+    "key": "infoThegraysTech",
+    "rawValue": "'info@thegrays.tech'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "injectorDart",
+    "rawValue": "'../../../../injector.dart'",
+    "filePath": "lib/src/features/login/presentation/cubit/login_cubit.dart"
+  },
+  {
+    "key": "injectorDart",
+    "rawValue": "'../../../../injector.dart'",
+    "filePath": "lib/src/features/feature/presentation/pages/screen.dart"
+  },
+  {
+    "key": "injectorDart1",
+    "rawValue": "'../injector.dart'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "input",
+    "rawValue": "\"input\"",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "input",
+    "rawValue": "\"input\"",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "input1",
+    "rawValue": "'input'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "janeSmith",
+    "rawValue": "'Jane Smith'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "johnDoe",
+    "rawValue": "'John Doe'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "jpeg",
+    "rawValue": "'jpeg'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "jpg",
+    "rawValue": "'jpg'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "levelExam",
+    "rawValue": "'levelExam'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "levels",
+    "rawValue": "'levels'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "loadMore",
+    "rawValue": "'Load more'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/loading_more_button.dart"
+  },
+  {
+    "key": "loginCubitDart",
+    "rawValue": "'login_cubit.dart'",
+    "filePath": "lib/src/features/login/presentation/cubit/login_state.dart"
+  },
+  {
+    "key": "loginDart",
+    "rawValue": "'login.dart'",
+    "filePath": "lib/src/features/login/data/models/login_model.dart"
+  },
+  {
+    "key": "loginPresentationCubitLoginCubitDart",
+    "rawValue": "'login/presentation/cubit/login_cubit.dart'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "loginRepoDart",
+    "rawValue": "'login_repo.dart'",
+    "filePath": "lib/src/features/login/data/repositories/login_repository_impl.dart"
+  },
+  {
+    "key": "loginStateDart",
+    "rawValue": "'login_state.dart'",
+    "filePath": "lib/src/features/login/presentation/cubit/login_cubit.dart"
+  },
+  {
+    "key": "m",
+    "rawValue": "\"M\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_sender.dart"
+  },
+  {
+    "key": "mail",
+    "rawValue": "'mail'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "mail",
+    "rawValue": "'mail'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "mail",
+    "rawValue": "'mail'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "mail1",
+    "rawValue": "'Mail'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "mailApp",
+    "rawValue": "'Mail App'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/app_drawer.dart"
+  },
+  {
+    "key": "mailbox",
+    "rawValue": "'mailbox'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "mailbox",
+    "rawValue": "'mailbox'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/app_drawer.dart"
+  },
+  {
+    "key": "mailbox",
+    "rawValue": "'mailbox'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "mailbox1",
+    "rawValue": "\"mailbox\"",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "mailbox1",
+    "rawValue": "\"mailbox\"",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "mailboxName",
+    "rawValue": "'mailboxName'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "mailDart",
+    "rawValue": "'mail.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/box_mails_model.dart"
+  },
+  {
+    "key": "mailDetailsCubitDart",
+    "rawValue": "'mail_details_cubit.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/cubit/mail_details_state.dart"
+  },
+  {
+    "key": "mailDetailsDataModelsComposeInputDart",
+    "rawValue": "'../../../mail_details/data/models/compose_input.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "mailDetailsPresentationCubitMailDetailsCubitDart",
+    "rawValue": "'mail_details/presentation/cubit/mail_details_cubit.dart'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "mailDetailsPresentationWidgetsCustomButtonDart",
+    "rawValue": "'../../../mail_details/presentation/widgets/custom_button.dart'",
+    "filePath": "lib/src/features/forward/presentation/pages/forward_view.dart"
+  },
+  {
+    "key": "mailDetailsStateDart",
+    "rawValue": "'mail_details_state.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/cubit/mail_details_cubit.dart"
+  },
+  {
+    "key": "mailGDart",
+    "rawValue": "'mail.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/mail.dart"
+  },
+  {
+    "key": "mainDart",
+    "rawValue": "'../../../../../main.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "mar_7_2023",
+    "rawValue": "'Mar 7, 2023'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_sender_info.dart"
+  },
+  {
+    "key": "mattWilliams",
+    "rawValue": "\"Matt Williams\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_sender.dart"
+  },
+  {
+    "key": "me",
+    "rawValue": "\"me\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_sender_info.dart"
+  },
+  {
+    "key": "meetingReminder",
+    "rawValue": "'Meeting Reminder'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "message",
+    "rawValue": "'Message'",
+    "filePath": "lib/src/features/forward/presentation/pages/forward_view.dart"
+  },
+  {
+    "key": "message1",
+    "rawValue": "'Message:'",
+    "filePath": "lib/src/features/reply/presentation/pages/reply_mail.dart"
+  },
+  {
+    "key": "message2",
+    "rawValue": "'message'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "messageGDart",
+    "rawValue": "'message.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/message.dart"
+  },
+  {
+    "key": "messageId",
+    "rawValue": "'messageId'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "messageId",
+    "rawValue": "'messageId'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "messageId1",
+    "rawValue": "\"messageId\"",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "messageRepoDart",
+    "rawValue": "'message_repo.dart'",
+    "filePath": "lib/src/features/inbox_view/data/repositories/message_repo_impl.dart"
+  },
+  {
+    "key": "modelGDart",
+    "rawValue": "'model.g.dart'",
+    "filePath": "lib/src/features/feature/data/models/model.dart"
+  },
+  {
+    "key": "modelsContactContactDart",
+    "rawValue": "'../models/contact/contact.dart'",
+    "filePath": "lib/src/features/contacts/data/repositories/contacts_repo_impl.dart"
+  },
+  {
+    "key": "modelsContactContactDart",
+    "rawValue": "'../models/contact/contact.dart'",
+    "filePath": "lib/src/features/contacts/data/repositories/contacts_repo.dart"
+  },
+  {
+    "key": "modelsContactContactDart",
+    "rawValue": "'../models/contact/contact.dart'",
+    "filePath": "lib/src/features/contacts/data/datasources/contacts_datasource.dart"
+  },
+  {
+    "key": "modelsEventEventDart",
+    "rawValue": "'../models/event/event.dart'",
+    "filePath": "lib/src/features/calender/data/repositories/events_repo.dart"
+  },
+  {
+    "key": "modelsEventEventDart",
+    "rawValue": "'../models/event/event.dart'",
+    "filePath": "lib/src/features/calender/data/repositories/events_repo_impl.dart"
+  },
+  {
+    "key": "modelsEventEventDart",
+    "rawValue": "'../models/event/event.dart'",
+    "filePath": "lib/src/features/calender/data/datasources/events_datasource.dart"
+  },
+  {
+    "key": "modelsLoginDart",
+    "rawValue": "'../models/login.dart'",
+    "filePath": "lib/src/features/login/data/repositories/login_repository_impl.dart"
+  },
+  {
+    "key": "modelsLoginDart",
+    "rawValue": "'../models/login.dart'",
+    "filePath": "lib/src/features/login/data/repositories/login_repo.dart"
+  },
+  {
+    "key": "modelsLoginDart",
+    "rawValue": "'../models/login.dart'",
+    "filePath": "lib/src/features/login/data/datasources/login_romote_datasource.dart"
+  },
+  {
+    "key": "modelsMailModelBoxMailsModelDart",
+    "rawValue": "'../models/mail_model/box_mails_model.dart'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "modelsMailModelMailDart",
+    "rawValue": "'../models/mail_model/mail.dart'",
+    "filePath": "lib/src/features/inbox_view/data/repositories/message_repo.dart"
+  },
+  {
+    "key": "modelsMailModelMailDart",
+    "rawValue": "'../models/mail_model/mail.dart'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "modelsSendMailModelSendMailModelDart",
+    "rawValue": "'../models/send_mail_model/send_mail_model.dart'",
+    "filePath": "lib/src/features/inbox_view/data/repositories/message_repo.dart"
+  },
+  {
+    "key": "modelsSendMailModelSendMailModelDart",
+    "rawValue": "'../models/send_mail_model/send_mail_model.dart'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "n",
+    "rawValue": "'\\n'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/message.dart"
+  },
+  {
+    "key": "name",
+    "rawValue": "'name'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "name1",
+    "rawValue": "\"Name\"",
+    "filePath": "lib/src/features/contacts/presentation/pages/contacts_view.dart"
+  },
+  {
+    "key": "newOffer",
+    "rawValue": "'New Offer'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "noAddress",
+    "rawValue": "'No Address'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "noEventsForThisDay",
+    "rawValue": "'No events for this day'",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "noMessagesToDisplay",
+    "rawValue": "'No messages to display'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "null",
+    "rawValue": "'null'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "onboarding",
+    "rawValue": "'onboarding'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "password",
+    "rawValue": "'password'",
+    "filePath": "lib/src/features/login/data/models/login_model.dart"
+  },
+  {
+    "key": "password",
+    "rawValue": "'password'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "password",
+    "rawValue": "'password'",
+    "filePath": "lib/src/features/login/data/datasources/login_romote_datasource.dart"
+  },
+  {
+    "key": "payoad",
+    "rawValue": "'**********************payoad----------------'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "pdf",
+    "rawValue": "'pdf'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "phone",
+    "rawValue": "'phone'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "pleaseAttendTheMeetingAt_2Pm",
+    "rawValue": "'Please attend the meeting at 2 PM.'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "pleaseAttendTheMeetingAt_2PmPleaseAttendTheMeetingAt_2Pm",
+    "rawValue": "'Please attend the meeting at 2 PM. Please attend the meeting at 2 PM.'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "pleaseEnterAValidEmailAddress",
+    "rawValue": "'Please enter a valid email address'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "png",
+    "rawValue": "'png'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "ppt",
+    "rawValue": "'ppt'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "pptx",
+    "rawValue": "'pptx'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "projectUpdate",
+    "rawValue": "'Project Update'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "quoraDigest",
+    "rawValue": "\"Quora Digest\"",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "rar",
+    "rawValue": "'rar'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "redo",
+    "rawValue": "'Redo'",
+    "filePath": "lib/src/features/compose/presentation/widgets/mail_editor.dart"
+  },
+  {
+    "key": "replacedText",
+    "rawValue": "'Replaced Text'",
+    "filePath": "lib/src/features/compose/presentation/widgets/mail_editor.dart"
+  },
+  {
+    "key": "reply",
+    "rawValue": "\"Reply\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_actions.dart"
+  },
+  {
+    "key": "reply",
+    "rawValue": "\"Reply\"",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "reply1",
+    "rawValue": "\"reply\"",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "reply2",
+    "rawValue": "'Reply'",
+    "filePath": "lib/src/features/reply/presentation/pages/reply_mail.dart"
+  },
+  {
+    "key": "replyAll",
+    "rawValue": "\"Reply all\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_actions.dart"
+  },
+  {
+    "key": "replyAll",
+    "rawValue": "\"Reply all\"",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "replyCubitDart",
+    "rawValue": "'reply_cubit.dart'",
+    "filePath": "lib/src/features/reply/presentation/cubit/reply_state.dart"
+  },
+  {
+    "key": "replyStateDart",
+    "rawValue": "'reply_state.dart'",
+    "filePath": "lib/src/features/reply/presentation/cubit/reply_cubit.dart"
+  },
+  {
+    "key": "repositoryDart",
+    "rawValue": "'repository.dart'",
+    "filePath": "lib/src/features/feature/data/repositories/repository_impl.dart"
+  },
+  {
+    "key": "review",
+    "rawValue": "'review'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "save",
+    "rawValue": "\"Save\"",
+    "filePath": "lib/src/features/contacts/presentation/pages/contacts_view.dart"
+  },
+  {
+    "key": "screenCubitDart",
+    "rawValue": "'screen_cubit.dart'",
+    "filePath": "lib/src/features/feature/presentation/cubit/screen_state.dart"
+  },
+  {
+    "key": "screenStateDart",
+    "rawValue": "'screen_state.dart'",
+    "filePath": "lib/src/features/feature/presentation/cubit/screen_cubit.dart"
+  },
+  {
+    "key": "searchMessages",
+    "rawValue": "'Search messages'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "seeSecurityDetails",
+    "rawValue": "\"see security details\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/info_box_widget.dart"
+  },
+  {
+    "key": "send",
+    "rawValue": "'Send'",
+    "filePath": "lib/src/features/forward/presentation/pages/forward_view.dart"
+  },
+  {
+    "key": "send",
+    "rawValue": "'Send'",
+    "filePath": "lib/src/features/reply/presentation/pages/reply_mail.dart"
+  },
+  {
+    "key": "sender",
+    "rawValue": "'sender'",
+    "filePath": "lib/src/features/inbox_view/data/models/message.dart"
+  },
+  {
+    "key": "sendMailModelGDart",
+    "rawValue": "'send_mail_model.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/send_mail_model/send_mail_model.dart"
+  },
+  {
+    "key": "sent",
+    "rawValue": "'Sent'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/app_drawer.dart"
+  },
+  {
+    "key": "settings",
+    "rawValue": "'Settings'",
+    "filePath": "lib/src/features/inbox_view/presentation/widgets/app_drawer.dart"
+  },
+  {
+    "key": "sortByDate",
+    "rawValue": "'Sort by Date'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "sortBySender",
+    "rawValue": "'Sort by Sender'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "sortBySubject",
+    "rawValue": "'Sort by Subject'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "splashCubitDart",
+    "rawValue": "'splash_cubit.dart'",
+    "filePath": "lib/src/features/splash/presentation/cubit/splash_state.dart"
+  },
+  {
+    "key": "splashStateDart",
+    "rawValue": "'splash_state.dart'",
+    "filePath": "lib/src/features/splash/presentation/cubit/splash_cubit.dart"
+  },
+  {
+    "key": "standardEncryption",
+    "rawValue": "\"Standard encryption\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/info_box_widget.dart"
+  },
+  {
+    "key": "student",
+    "rawValue": "'student'",
+    "filePath": "lib/src/features/login/presentation/pages/login_screen.dart"
+  },
+  {
+    "key": "subject",
+    "rawValue": "'Subject'",
+    "filePath": "lib/src/features/forward/presentation/pages/forward_view.dart"
+  },
+  {
+    "key": "subject1",
+    "rawValue": "'Subject '",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "subject2",
+    "rawValue": "'Subject:'",
+    "filePath": "lib/src/features/reply/presentation/pages/reply_mail.dart"
+  },
+  {
+    "key": "subject3",
+    "rawValue": "'subject'",
+    "filePath": "lib/src/features/inbox_view/data/models/message.dart"
+  },
+  {
+    "key": "subject3",
+    "rawValue": "'subject'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "subjectIsRequired",
+    "rawValue": "'Subject is required'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "successInRemoteDsWithRes",
+    "rawValue": "'success in remote DS with res'",
+    "filePath": "lib/src/features/contacts/data/datasources/contacts_datasource.dart"
+  },
+  {
+    "key": "successInRemoteDsWithRes",
+    "rawValue": "'success in remote DS with res'",
+    "filePath": "lib/src/features/calender/data/datasources/events_datasource.dart"
+  },
+  {
+    "key": "successInRemoteDsWithRes",
+    "rawValue": "'success in remote DS with res'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "tap",
+    "rawValue": "\"tap\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_sender_info.dart"
+  },
+  {
+    "key": "theProjectIsOnScheduleAndOnBudget",
+    "rawValue": "'The project is on schedule and on budget.'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "to",
+    "rawValue": "'To'",
+    "filePath": "lib/src/features/forward/presentation/pages/forward_view.dart"
+  },
+  {
+    "key": "to1",
+    "rawValue": "\"To\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/info_box_widget.dart"
+  },
+  {
+    "key": "to2",
+    "rawValue": "'To   '",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "to3",
+    "rawValue": "'To:'",
+    "filePath": "lib/src/features/reply/presentation/pages/reply_mail.dart"
+  },
+  {
+    "key": "to4",
+    "rawValue": "'to'",
+    "filePath": "lib/src/features/inbox_view/data/datasources/message_datasource.dart"
+  },
+  {
+    "key": "toDart",
+    "rawValue": "'to.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/mail.dart"
+  },
+  {
+    "key": "today",
+    "rawValue": "'today'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_sender_info.dart"
+  },
+  {
+    "key": "toGDart",
+    "rawValue": "'to.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/to.dart"
+  },
+  {
+    "key": "toMeN12_45Pm",
+    "rawValue": "\"to me\\n12:45 PM \"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_sender.dart"
+  },
+  {
+    "key": "txt",
+    "rawValue": "'txt'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "type",
+    "rawValue": "'type'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "typeYourMessageHere",
+    "rawValue": "'Type your message here'",
+    "filePath": "lib/src/features/reply/presentation/pages/reply_mail.dart"
+  },
+  {
+    "key": "undo",
+    "rawValue": "'Undo'",
+    "filePath": "lib/src/features/compose/presentation/widgets/mail_editor.dart"
+  },
+  {
+    "key": "updatedAt",
+    "rawValue": "'updatedAt'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "us",
+    "rawValue": "'US'",
+    "filePath": "lib/src/features/app.dart"
+  },
+  {
+    "key": "userGDart",
+    "rawValue": "'user.g.dart'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "username",
+    "rawValue": "'username'",
+    "filePath": "lib/src/features/login/data/datasources/login_romote_datasource.dart"
+  },
+  {
+    "key": "v",
+    "rawValue": "'__v'",
+    "filePath": "lib/src/features/login/data/models/user/user.dart"
+  },
+  {
+    "key": "valueDart",
+    "rawValue": "'value.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/from.dart"
+  },
+  {
+    "key": "valueDart",
+    "rawValue": "'value.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/cc.dart"
+  },
+  {
+    "key": "valueDart",
+    "rawValue": "'value.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/to.dart"
+  },
+  {
+    "key": "valueGDart",
+    "rawValue": "'value.g.dart'",
+    "filePath": "lib/src/features/inbox_view/data/models/mail_model/value.dart"
+  },
+  {
+    "key": "viewDetails",
+    "rawValue": "\" View Details\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_sender.dart"
+  },
+  {
+    "key": "w",
+    "rawValue": "\"W\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "widgetsAppDrawerDart",
+    "rawValue": "'../widgets/app_drawer.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "widgetsAttachedFileWidgetDart",
+    "rawValue": "'../widgets/attached_file_widget.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "widgetsComposeWidgetsDart",
+    "rawValue": "'../widgets/compose_widgets.dart'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "widgetsCustomButtonDart",
+    "rawValue": "'../widgets/custom_button.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "widgetsFilterButtonDart",
+    "rawValue": "'../widgets/filter_button.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "widgetsInfoBoxWidgetDart",
+    "rawValue": "'../widgets/info_box_widget.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "widgetsMailEditorDart",
+    "rawValue": "'../widgets/mail_editor.dart'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "widgetsMailSenderInfoDart",
+    "rawValue": "'../widgets/mail_sender_info.dart'",
+    "filePath": "lib/src/features/mail_details/presentation/pages/mail_view.dart"
+  },
+  {
+    "key": "widgetsMessageDart",
+    "rawValue": "'../widgets/message.dart'",
+    "filePath": "lib/src/features/inbox_view/presentation/pages/inbox_screen.dart"
+  },
+  {
+    "key": "widgetsSelectAttatchmentsDart",
+    "rawValue": "'../widgets/select_attatchments.dart'",
+    "filePath": "lib/src/features/compose/presentation/pages/compose_view.dart"
+  },
+  {
+    "key": "widgetsTextFormFiledDart",
+    "rawValue": "'../widgets/text_form_filed.dart'",
+    "filePath": "lib/src/features/login/presentation/pages/login_screen.dart"
+  },
+  {
+    "key": "widgetsTextFormFiledPasswordDart",
+    "rawValue": "'../widgets/text_form_filed_password.dart'",
+    "filePath": "lib/src/features/login/presentation/pages/login_screen.dart"
+  },
+  {
+    "key": "x",
+    "rawValue": "\"X\"",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "xls",
+    "rawValue": "'xls'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "xlsx",
+    "rawValue": "'xlsx'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  },
+  {
+    "key": "yesterday",
+    "rawValue": "'yesterday'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/mail_sender_info.dart"
+  },
+  {
+    "key": "yyyyMmDd",
+    "rawValue": "'yyyy-MM-dd'",
+    "filePath": "lib/src/features/calender/presentation/pages/calender_view.dart"
+  },
+  {
+    "key": "zip",
+    "rawValue": "'zip'",
+    "filePath": "lib/src/features/mail_details/presentation/widgets/file_type.dart"
+  }
+]
