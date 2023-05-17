@@ -5,7 +5,7 @@ This is a Flutter app that allows users to convert currencies using the Exchange
 
 ### App Features
 
-*   Well-organized files and code structure: The app follows a modular approach with clear separation of concerns. Each directory represents a specific aspect of the app (model, view, viewmodel, *   service, util) and contains related files. This modular structure makes it easier to navigate and maintain the codebase.
+*   Well-organized files and code structure: The app follows a modular approach with clear separation of concerns. Each feature represents a specific aspect of the app (model (data layer), view, viewmodel) and contains related files. This modular structure makes it easier to navigate and maintain the codebase.
 
 *   Separation of responsibilities: The code structure follows the principle of separation of concerns, ensuring that each component has a specific responsibility. The Model layer handles data-* *   related operations, the View layer focuses on UI rendering, and the ViewModel layer handles the presentation logic. This separation makes the codebase more maintainable and testable.
 
