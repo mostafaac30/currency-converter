@@ -1,4 +1,5 @@
-# email_app
+# currency-converter
+
 
 A new Flutter project.
 
