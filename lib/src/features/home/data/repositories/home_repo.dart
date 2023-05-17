@@ -4,5 +4,9 @@ import '../../../../core/error/failure.dart';
 
 abstract class HomeRepository {
   Future<Either<Failure, List>> getData(
-      int page, String startDate, String endDate);
+    String startDate,
+    String endDate,
+    String baseCurrency,
+    String targetCurrency,
+  );
 }

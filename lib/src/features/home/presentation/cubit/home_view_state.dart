@@ -37,3 +37,50 @@ class HomeViewErrorState extends HomeViewState {
     required this.error,
   });
 }
+
+class HomeViewSymbolsLoadedState extends HomeViewState {
+  List<String> currencies = [];
+  Map<String, dynamic> countries = {};
+  HomeViewSymbolsLoadedState({
+    required this.currencies,
+    required this.countries,
+  });
+}
+
+class HomeViewUpdateBaseCurrencyState extends HomeViewState {
+  String baseCurrency;
+
+  HomeViewUpdateBaseCurrencyState({required this.baseCurrency});
+}
+
+class HomeViewUpdateTargetCurrencyState extends HomeViewState {
+  String targetCurrency;
+
+  HomeViewUpdateTargetCurrencyState({required this.targetCurrency});
+}
+
+class HomeViewSwapCurrencyState extends HomeViewState {
+  String baseCurrency;
+  String targetCurrency;
+
+  HomeViewSwapCurrencyState({
+    required this.baseCurrency,
+    required this.targetCurrency,
+  });
+}
+
+class HomeViewUpdateStartDateState extends HomeViewState {
+  String startDate;
+
+  HomeViewUpdateStartDateState({required this.startDate});
+}
+
+class HomeViewUpdateEndDateState extends HomeViewState {
+  String? endDate;
+
+  HomeViewUpdateEndDateState({required this.endDate});
+}
+
+class HomeViewResetState extends HomeViewState {
+  HomeViewResetState();
+}

@@ -1,5 +1,6 @@
-import 'package:email_app/src/config/constants.dart';
-import 'package:email_app/src/features/home/data/models/timeseries_model.dart';
+import 'package:currency_converter_app/src/config/constants.dart';
+import 'package:currency_converter_app/src/features/home/data/models/timeseries_model.dart';
+import 'package:flutter/material.dart';
 
 import '../../../../core/error/error_handler.dart';
 import '../../../../core/error/failure.dart';
@@ -7,7 +8,12 @@ import '../../../../core/network/dio_factory.dart';
 
 abstract class HomeDataSource {
   // API CRUD Calls
-  Future<List> getData(int page, String startDate, String endDate);
+  Future<List> getData(
+    String startDate,
+    String endDate,
+    String baseCurrency,
+    String targetCurrency,
+  );
 }
 
 class HomeDataSourceImpl extends HomeDataSource {
@@ -15,33 +21,32 @@ class HomeDataSourceImpl extends HomeDataSource {
   HomeDataSourceImpl({required this.dioFactory});
 
   @override
-  Future<List> getData(int page, String startDate, String endDate) async {
-//pagination
-    int start = (page - 1) * Constants.requestLimit + 1;
-
-    int end = page * Constants.requestLimit;
+  Future<List> getData(
+    String startDate,
+    String endDate,
+    String baseCurrency,
+    String targetCurrency,
+  ) async {
+    //pagination
 
     final dio = await dioFactory.getDio();
     try {
       final res = await dio.get(
-        '${Constants.apiUrl}${Constants.timeseriesEndpoint}?start_date=$startDate&end_date=$endDate&page=$page&limit=${Constants.requestLimit}', //
+        '${Constants.apiUrl}${Constants.timeSeriesEndpoint}?start_date=$startDate&end_date=$endDate&base=$baseCurrency&symbols=$targetCurrency', //
       );
 
       if (res.statusCode == 200) {
         TimeSeriesModel timeSeries = TimeSeriesModel.fromJson(res.data);
-        print('success in remote DS with res');
 
         List data = timeSeries.rates ?? [];
         // return first 10 records
-        return data.sublist(start, end);
-      } else {
-        print('error in remote DS with res');
 
+        return data;
+      } else {
         throw Failure(res.statusCode ?? 0, res.statusMessage ?? '');
       }
     } catch (error) {
-      print('error in remote DS');
-      print(error);
+      debugPrint(error.toString());
 
       throw ErrorHandler.handle(error);
     }

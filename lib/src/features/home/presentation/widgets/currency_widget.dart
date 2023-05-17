@@ -1,8 +1,8 @@
-import 'package:email_app/src/core/utils/color_manager.dart';
-import 'package:email_app/src/core/utils/font_manager.dart';
-import 'package:email_app/src/core/utils/strings_manager.dart';
-import 'package:email_app/src/core/utils/styles_manager.dart';
-import 'package:email_app/src/core/utils/values_manager.dart';
+import 'package:currency_converter_app/src/core/utils/color_manager.dart';
+import 'package:currency_converter_app/src/core/utils/font_manager.dart';
+import 'package:currency_converter_app/src/core/utils/strings_manager.dart';
+import 'package:currency_converter_app/src/core/utils/styles_manager.dart';
+import 'package:currency_converter_app/src/core/utils/values_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 

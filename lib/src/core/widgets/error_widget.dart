@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:email_app/src/core/utils/color_manager.dart';
+import 'package:currency_converter_app/src/core/utils/color_manager.dart';
 import 'package:sizer/sizer.dart';
 
 class ErrorWidget extends StatelessWidget {
@@ -15,7 +15,7 @@ class ErrorWidget extends StatelessWidget {
         Center(
           child: Icon(
             Icons.warning_amber_rounded,
-            color: ColorManager.redColor,
+            color: ColorManager.secondary3Color,
             size: 150,
           ),
         ),
@@ -30,7 +30,7 @@ class ErrorWidget extends StatelessWidget {
         Text(
           'try_again',
           style: TextStyle(
-              color: ColorManager.yellowColor,
+              color: ColorManager.secondaryColor,
               fontSize: 18,
               fontWeight: FontWeight.w500),
         ),

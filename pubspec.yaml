@@ -1,4 +1,4 @@
-name: email_app
+name: currency_converter_app
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -29,10 +29,6 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   analyzer: ^5.5.0
-  animated_snack_bar: ^0.3.0
-  audioplayers: ^1.0.1
-  auth0_flutter: ^1.0.2
-  awesome_dialog: ^2.2.1
   bloc: ^8.0.3
   calendar_date_picker2: ^0.5.2
   connectivity_plus: ^3.0.2
@@ -107,7 +103,7 @@ dev_dependencies:
   retrofit_generator: ^5.0.0
 
 flutter_native_splash:
-  color: "#2D323F"
+  color: "#FFFFFF"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

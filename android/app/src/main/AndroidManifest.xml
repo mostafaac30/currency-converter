@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.emailapp.emailapp.email_app">
+    package="com.mostafaac30.currencyConverter">
     <application
         android:label="Spixnet"
         android:name="${applicationName}"

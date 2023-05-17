@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:email_app/src/core/utils/assets_manager.dart';
-import 'package:email_app/src/core/utils/color_manager.dart';
-import 'package:email_app/src/core/utils/strings_manager.dart';
-import 'package:email_app/src/core/utils/styles_manager.dart';
+import 'package:currency_converter_app/src/core/utils/assets_manager.dart';
+import 'package:currency_converter_app/src/core/utils/color_manager.dart';
+import 'package:currency_converter_app/src/core/utils/strings_manager.dart';
+import 'package:currency_converter_app/src/core/utils/styles_manager.dart';
 import 'package:sizer/sizer.dart';
 
 class ErrorScreen extends StatelessWidget {
@@ -13,7 +13,7 @@ class ErrorScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ColorManager.black100Color.withOpacity(.8),
+      backgroundColor: ColorManager.secondary5Color.withOpacity(.8),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -28,7 +28,7 @@ class ErrorScreen extends StatelessWidget {
           ),
           Text(
             AppStrings.error,
-            style: getBoldStyle(color: ColorManager.grey100),
+            style: getBoldStyle(color: ColorManager.secondary4Color),
             textAlign: TextAlign.center,
           )
         ],

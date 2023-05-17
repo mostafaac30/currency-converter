@@ -1,6 +1,6 @@
-import 'package:email_app/src/core/utils/color_manager.dart';
-import 'package:email_app/src/core/utils/styles_manager.dart';
-import 'package:email_app/src/core/utils/values_manager.dart';
+import 'package:currency_converter_app/src/core/utils/color_manager.dart';
+import 'package:currency_converter_app/src/core/utils/styles_manager.dart';
+import 'package:currency_converter_app/src/core/utils/values_manager.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
@@ -35,9 +35,6 @@ class CustomButton extends StatelessWidget {
         ),
         backgroundColor: MaterialStateProperty.all(
           ColorManager.secondaryColor,
-        ),
-        maximumSize: MaterialStateProperty.all(
-          const Size(AppSize.s150, AppSize.s50),
         ),
       ),
       onPressed: onPressed,

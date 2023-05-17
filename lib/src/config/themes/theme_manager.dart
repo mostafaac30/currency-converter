@@ -12,13 +12,13 @@ ThemeData getAppTheme() {
     scaffoldBackgroundColor: ColorManager.primaryColor,
     primaryColor: ColorManager.primaryColor,
     primaryColorLight: ColorManager.bgColor,
-    primaryColorDark: ColorManager.black100Color, //TODO: add correct dark color
+    primaryColorDark: ColorManager.secondary5Color,
     disabledColor: ColorManager.bgColor,
-    splashColor: ColorManager.bodyText60Color, //ripple effect
+    splashColor: ColorManager.secondary4Color, //ripple effect
     //card view theme
     cardTheme: CardTheme(
       color: ColorManager.secondaryColor,
-      shadowColor: ColorManager.black100Color.withOpacity(0.1),
+      shadowColor: ColorManager.secondary5Color.withOpacity(0.1),
       margin: const EdgeInsets.all(AppMargin.m16),
 
       elevation: AppSize.s6, // Adjust this to control the shadow
@@ -43,8 +43,8 @@ ThemeData getAppTheme() {
         )),
     //button theme
     buttonTheme: ButtonThemeData(
-      buttonColor: ColorManager.black100Color,
-      disabledColor: ColorManager.bodyText60Color,
+      buttonColor: ColorManager.secondary5Color,
+      disabledColor: ColorManager.secondary4Color,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(AppSize.s16),
       ),
@@ -53,7 +53,7 @@ ThemeData getAppTheme() {
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         textStyle: getBoldStyle(
-          color: ColorManager.black100Color,
+          color: ColorManager.secondary5Color,
           fontSize: FontSize.s16,
         ),
         shape: RoundedRectangleBorder(
@@ -71,7 +71,7 @@ ThemeData getAppTheme() {
       ),
       hintStyle: getSemiBoldItalicStyle(
         fontSize: FontSize.s14,
-        color: ColorManager.bodyText25Color,
+        color: ColorManager.secondary4Color,
       ),
       labelStyle: getSemiBoldItalicStyle(
         fontSize: FontSize.s12,
@@ -79,7 +79,7 @@ ThemeData getAppTheme() {
       ),
       errorStyle: getSemiBoldItalicStyle(
         fontSize: FontSize.s12,
-        color: ColorManager.redColor,
+        color: ColorManager.secondaryColor,
       ),
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(AppSize.s16),
@@ -100,7 +100,7 @@ ThemeData getAppTheme() {
       ),
       errorBorder: OutlineInputBorder(
         borderSide: BorderSide(
-          color: ColorManager.redColor,
+          color: ColorManager.secondaryColor,
           width: AppSize.s1_5,
         ),
         borderRadius: BorderRadius.circular(AppSize.s16),
@@ -115,7 +115,7 @@ ThemeData getAppTheme() {
     textTheme: TextTheme(
         //for buttons text
         headlineMedium: getBoldStyle(
-      color: ColorManager.bgBlockColor,
+      color: ColorManager.primaryColor,
     )),
 
     visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -129,7 +129,7 @@ ThemeData getAppTheme() {
       color: ColorManager.secondaryColor,
       size: AppSize.s24,
     ),
-    // indicator defulat color and CupertinoActivityIndicator
+    // indicator default color and CupertinoActivityIndicator
     cupertinoOverrideTheme: CupertinoThemeData(
       primaryColor: ColorManager.secondaryColor,
     ),
