@@ -1,4 +1,4 @@
-import 'package:currency_converter_app/src/features/home/data/models/rate.dart';
+import 'package:currency_converter_app/src/features/exchange_rate/data/models/rate.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

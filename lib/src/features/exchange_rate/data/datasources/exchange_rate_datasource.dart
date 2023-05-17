@@ -1,14 +1,14 @@
 import 'package:currency_converter_app/src/config/constants.dart';
-import 'package:currency_converter_app/src/features/home/data/models/timeseries_model.dart';
+import 'package:currency_converter_app/src/features/exchange_rate/data/models/timeseries_model.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/error/error_handler.dart';
 import '../../../../core/error/failure.dart';
 import '../../../../core/network/dio_factory.dart';
 
-abstract class HomeDataSource {
+abstract class ExchangeRateDataSource {
   // API CRUD Calls
-  Future<List> getData(
+  Future<List> getExchangeRateData(
     String startDate,
     String endDate,
     String baseCurrency,
@@ -16,12 +16,12 @@ abstract class HomeDataSource {
   );
 }
 
-class HomeDataSourceImpl extends HomeDataSource {
+class ExchangeRateDataSourceImpl extends ExchangeRateDataSource {
   DioFactory dioFactory;
-  HomeDataSourceImpl({required this.dioFactory});
+  ExchangeRateDataSourceImpl({required this.dioFactory});
 
   @override
-  Future<List> getData(
+  Future<List> getExchangeRateData(
     String startDate,
     String endDate,
     String baseCurrency,
