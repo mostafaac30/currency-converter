@@ -4,20 +4,20 @@ import 'package:flutter/material.dart';
 
 import '../../../../core/error/error_handler.dart';
 import '../../../../core/error/failure.dart';
-import '../datasources/home_datasource.dart';
-import 'home_repo.dart';
+import '../datasources/exchange_rate_datasource.dart';
+import 'exchange_rate_repo.dart';
 
-class HomeRepositoryImpl extends HomeRepository {
-  final HomeDataSource _dataSource;
+class ExchangeRateRepositoryImpl extends ExchangeRateRepository {
+  final ExchangeRateDataSource _dataSource;
   final NetworkInfo networkInfo;
 
-  HomeRepositoryImpl({
-    required HomeDataSource remoteDataSource,
+  ExchangeRateRepositoryImpl({
+    required ExchangeRateDataSource remoteDataSource,
     required this.networkInfo,
   }) : _dataSource = remoteDataSource;
 
   @override
-  Future<Either<Failure, List>> getData(
+  Future<Either<Failure, List>> getExchangeRateData(
     String startDate,
     String endDate,
     String baseCurrency,
@@ -26,7 +26,7 @@ class HomeRepositoryImpl extends HomeRepository {
     if (await networkInfo.isConnected) {
       try {
         //fetch  from api
-        final data = await _dataSource.getData(
+        final data = await _dataSource.getExchangeRateData(
             startDate, endDate, baseCurrency, targetCurrency);
 
         return Right(data);

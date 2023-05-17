@@ -2,7 +2,9 @@ class AppStrings {
   static const appName = 'Currency Converter';
 
   static const noRouteFound = 'No Screen Found';
-  static const error = 'Error';
+  static const error = 'something_went_wrong';
+  static const tryAgain = 'try again';
+  static const reload = 'reload_screen';
   static const onlineCheck = 'Check for internet connectivity';
   static const noInternet = 'No internet connection';
 

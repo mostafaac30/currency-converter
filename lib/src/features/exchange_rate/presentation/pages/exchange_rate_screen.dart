@@ -16,21 +16,21 @@ import '../../../../core/utils/strings_manager.dart';
 import '../../../../core/utils/styles_manager.dart';
 import '../../../../core/utils/values_manager.dart';
 import '../../data/models/rate.dart';
-import '../cubit/home_view_cubit.dart';
+import '../cubit/exchange_rate_view_cubit.dart';
 import '../widgets/currency_widget.dart';
 import '../widgets/dated_divider.dart';
 import '../widgets/rate_widget.dart';
 import '../widgets/rate_with_dated_divider.dart';
 
-class HomeView extends StatefulWidget {
+class ExchangeRateView extends StatefulWidget {
   final Map<String, dynamic> args;
-  const HomeView({Key? key, required this.args}) : super(key: key);
+  const ExchangeRateView({Key? key, required this.args}) : super(key: key);
 
   @override
-  _HomeViewState createState() => _HomeViewState();
+  _ExchangeRateViewState createState() => _ExchangeRateViewState();
 }
 
-class _HomeViewState extends State<HomeView> {
+class _ExchangeRateViewState extends State<ExchangeRateView> {
   DateTime? startDate;
   DateTime? endDate;
 
@@ -59,19 +59,19 @@ class _HomeViewState extends State<HomeView> {
       return;
     }
 
-    context.read<HomeViewCubit>().loadData();
+    context.read<ExchangeRateViewCubit>().loadData();
   }
 
   void _swapCurrencies() {
-    context.read<HomeViewCubit>().swapCurrencies();
+    context.read<ExchangeRateViewCubit>().swapCurrencies();
   }
 
   void _onBaseCurrencyChanged(String value) {
-    context.read<HomeViewCubit>().setBaseCurrency = value;
+    context.read<ExchangeRateViewCubit>().setBaseCurrency = value;
   }
 
   void _onTargetCurrencyChanged(String value) {
-    context.read<HomeViewCubit>().setTargetCurrency = value;
+    context.read<ExchangeRateViewCubit>().setTargetCurrency = value;
   }
 
   void _onScroll() {
@@ -87,7 +87,7 @@ class _HomeViewState extends State<HomeView> {
     // Load more messages when the user reaches the end of the list
     if (_scrollController.position.pixels ==
         _scrollController.position.maxScrollExtent) {
-      context.read<HomeViewCubit>().loadData();
+      context.read<ExchangeRateViewCubit>().loadData();
     }
   }
 
@@ -95,15 +95,15 @@ class _HomeViewState extends State<HomeView> {
     final start = dates.first;
     final end = dates.last;
     if (dates.length == 1) {
-      context.read<HomeViewCubit>().setStartDate =
+      context.read<ExchangeRateViewCubit>().setStartDate =
           formatter.format(start!); //granted that start is not null
-      context.read<HomeViewCubit>().setEndDate = null;
+      context.read<ExchangeRateViewCubit>().setEndDate = null;
       endDate = null;
       return;
     } else if (dates.length == 2) {
       //granted that both are not null
-      context.read<HomeViewCubit>().setStartDate = formatter.format(start!);
-      context.read<HomeViewCubit>().setEndDate = formatter.format(end!);
+      context.read<ExchangeRateViewCubit>().setStartDate = formatter.format(start!);
+      context.read<ExchangeRateViewCubit>().setEndDate = formatter.format(end!);
       return;
     }
   }
@@ -120,7 +120,7 @@ class _HomeViewState extends State<HomeView> {
 
   @override
   Widget build(BuildContext context) {
-    return BlocConsumer<HomeViewCubit, HomeViewState>(
+    return BlocConsumer<ExchangeRateViewCubit, ExchangeRateViewState>(
       builder: (context, state) {
         return Scaffold(
           body: CustomScrollView(
@@ -150,7 +150,7 @@ class _HomeViewState extends State<HomeView> {
               ),
 
               //loading state
-              if (state is HomeViewLoadingState)
+              if (state is ExchangeRateViewLoadingState)
                 const SliverToBoxAdapter(
                   child: Center(
                     child: CupertinoActivityIndicator(),
@@ -254,7 +254,7 @@ class _HomeViewState extends State<HomeView> {
               : FloatingActionButton.extended(
                   label: const Text(AppStrings.clear),
                   onPressed: () {
-                    context.read<HomeViewCubit>().reset();
+                    context.read<ExchangeRateViewCubit>().reset();
                   },
                   backgroundColor: ColorManager.secondary5Color,
                   icon: const Icon(FontAwesomeIcons.trashCan),
@@ -263,29 +263,29 @@ class _HomeViewState extends State<HomeView> {
         // }
       },
       listener: (context, state) async {
-        if (state is HomeViewErrorState) {
+        if (state is ExchangeRateViewErrorState) {
           showErrorToast(context, message: state.error);
-        } else if (state is HomeViewLoadingState) {
+        } else if (state is ExchangeRateViewLoadingState) {
           showSuccessToast(context, message: AppStrings.loadingCurrencyHistory);
 
           data = state.oldData;
-        } else if (state is HomeViewSuccessState) {
+        } else if (state is ExchangeRateViewSuccessState) {
           data = state.data;
-        } else if (state is HomeViewSymbolsLoadedState) {
+        } else if (state is ExchangeRateViewSymbolsLoadedState) {
           currencies = state.currencies;
           countries = state.countries;
-        } else if (state is HomeViewSwapCurrencyState) {
+        } else if (state is ExchangeRateViewSwapCurrencyState) {
           baseCurrency = state.baseCurrency;
           targetCurrency = state.targetCurrency;
-        } else if (state is HomeViewUpdateBaseCurrencyState) {
+        } else if (state is ExchangeRateViewUpdateBaseCurrencyState) {
           baseCurrency = state.baseCurrency;
-        } else if (state is HomeViewUpdateTargetCurrencyState) {
+        } else if (state is ExchangeRateViewUpdateTargetCurrencyState) {
           targetCurrency = state.targetCurrency;
-        } else if (state is HomeViewUpdateStartDateState) {
+        } else if (state is ExchangeRateViewUpdateStartDateState) {
           startDate = DateTime.parse(state.startDate);
-        } else if (state is HomeViewUpdateEndDateState) {
+        } else if (state is ExchangeRateViewUpdateEndDateState) {
           endDate = DateTime.tryParse(state.endDate ?? '');
-        } else if (state is HomeViewResetState) {
+        } else if (state is ExchangeRateViewResetState) {
           data = [];
           showSuccessToast(context, message: AppStrings.clearData);
         }

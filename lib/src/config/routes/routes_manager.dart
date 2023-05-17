@@ -4,12 +4,11 @@ import 'package:currency_converter_app/src/core/widgets/wrong.dart';
 import 'package:currency_converter_app/src/features/splash/presentation/pages/splash_screen.dart';
 
 import '../../core/utils/strings_manager.dart';
-
-import '../../features/home/presentation/pages/home_screen.dart';
+import '../../features/exchange_rate/presentation/pages/exchange_rate_screen.dart';
 
 class Routes {
   static const String splashRoute = '/';
-  static const String homeScreen = '/homeScreen';
+  static const String exchangeRate = '/ExchangeRate';
   static const String errorScreen = '/errorScreen';
   static const String noInternetScreen = '/noInternetScreen';
 }
@@ -22,9 +21,9 @@ class RouteGenerator {
     switch (settings.name) {
       case Routes.splashRoute:
         return MaterialPageRoute(builder: (_) => const SplashScreen());
-      case Routes.homeScreen:
+      case Routes.exchangeRate:
         return MaterialPageRoute(
-            builder: (_) => HomeView(
+            builder: (_) => ExchangeRateView(
                   args: args,
                 ));
       case Routes.errorScreen:

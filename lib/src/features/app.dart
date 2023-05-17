@@ -9,7 +9,7 @@ import '../core/utils/single_touch.dart';
 import '../core/utils/strings_manager.dart';
 import '../injector.dart' as di;
 
-import 'home/presentation/cubit/home_view_cubit.dart';
+import 'exchange_rate/presentation/cubit/exchange_rate_view_cubit.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -33,8 +33,8 @@ class MyApp extends StatelessWidget {
 
     return MultiBlocProvider(
       providers: [
-        BlocProvider<HomeViewCubit>(
-          create: (context) => di.sl<HomeViewCubit>(),
+        BlocProvider<ExchangeRateViewCubit>(
+          create: (context) => di.sl<ExchangeRateViewCubit>(),
         ),
       ],
       child: OnlyOnePointerRecognizerWidget(

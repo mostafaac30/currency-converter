@@ -5,10 +5,10 @@ import 'package:currency_converter_app/src/core/network/dio_factory.dart';
 import 'package:currency_converter_app/src/core/network/network_info.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'features/home/data/datasources/home_datasource.dart';
-import 'features/home/data/repositories/home_repo.dart';
-import 'features/home/data/repositories/home_repo_impl.dart';
-import 'features/home/presentation/cubit/home_view_cubit.dart';
+import 'features/exchange_rate/data/datasources/exchange_rate_datasource.dart';
+import 'features/exchange_rate/data/repositories/exchange_rate_repo.dart';
+import 'features/exchange_rate/data/repositories/exchange_rate_repo_impl.dart';
+import 'features/exchange_rate/presentation/cubit/exchange_rate_view_cubit.dart';
 import 'features/splash/presentation/cubit/splash_cubit.dart';
 
 final sl = GetIt.instance;
@@ -17,22 +17,23 @@ Future<void> init() async {
 //blocs
 
   sl.registerFactory<SplashCubit>(() => SplashCubit());
-  sl.registerFactory<HomeViewCubit>(() => HomeViewCubit(
+  sl.registerFactory<ExchangeRateViewCubit>(() => ExchangeRateViewCubit(
         repository: sl(),
       ));
 
   // repositories
 
-  sl.registerLazySingleton<HomeRepository>(() => HomeRepositoryImpl(
-        remoteDataSource: sl(),
-        networkInfo: sl(),
-      ));
+  sl.registerLazySingleton<ExchangeRateRepository>(
+      () => ExchangeRateRepositoryImpl(
+            remoteDataSource: sl(),
+            networkInfo: sl(),
+          ));
 
 // data sources
 
   //start from here
-  sl.registerLazySingleton<HomeDataSource>(
-      () => HomeDataSourceImpl(dioFactory: sl()));
+  sl.registerLazySingleton<ExchangeRateDataSource>(
+      () => ExchangeRateDataSourceImpl(dioFactory: sl()));
 
   ///core
   sl.registerLazySingleton<DioFactory>(() => DioFactory());

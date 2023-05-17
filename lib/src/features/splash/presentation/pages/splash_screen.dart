@@ -1,10 +1,11 @@
 import 'dart:async';
+import 'package:currency_converter_app/src/core/utils/values_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:currency_converter_app/src/core/utils/color_manager.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../../../../config/constants.dart';
 import '../../../../config/routes/routes_manager.dart';
-import '../../../../core/utils/assets_manager.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -19,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void _goNext() async {
     Navigator.pushReplacementNamed(
       context,
-      Routes.homeScreen,
+      Routes.exchangeRate,
     );
   }
 
@@ -50,9 +51,12 @@ class _SplashScreenState extends State<SplashScreen> {
           color: ColorManager.primaryColor,
           child: SafeArea(
             child: Center(
-              child: Image.asset(
-                ImageAssets.appLogo,
-              ),
+              child: ClipOval(
+                  child: Icon(
+                FontAwesomeIcons.coins,
+                color: ColorManager.secondaryColor,
+                size: AppSize.s100,
+              )),
             ),
           ),
         ),

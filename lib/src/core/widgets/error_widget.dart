@@ -1,3 +1,4 @@
+import 'package:currency_converter_app/src/core/utils/strings_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:currency_converter_app/src/core/utils/color_manager.dart';
 import 'package:sizer/sizer.dart';
@@ -22,13 +23,13 @@ class ErrorWidget extends StatelessWidget {
         Container(
           margin: const EdgeInsets.symmetric(vertical: 12),
           child: const Text(
-            'something_went_wrong',
+            AppStrings.error,
             style: TextStyle(
                 color: Colors.black, fontSize: 20, fontWeight: FontWeight.w700),
           ),
         ),
         Text(
-          'try_again',
+          AppStrings.tryAgain,
           style: TextStyle(
               color: ColorManager.secondaryColor,
               fontSize: 18,
@@ -44,7 +45,7 @@ class ErrorWidget extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(50))),
             child: const Text(
-              'reload_screen',
+              AppStrings.reload,
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 20,
