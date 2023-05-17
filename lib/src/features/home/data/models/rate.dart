@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
 
-// part 'rate.g.dart';
+part 'rate.g.dart';
 
 // "USD":1.23,
 
@@ -19,6 +19,6 @@ class Rate {
     required this.currency,
   });
 
-  // factory Rate.fromJson(Map<String, dynamic> json) => _$RateFromJson(json);
-  // Map<String, dynamic> toJson() => _$RateToJson(this);
+  factory Rate.fromJson(Map<String, dynamic> json) => _$RateFromJson(json);
+  Map<String, dynamic> toJson() => _$RateToJson(this);
 }

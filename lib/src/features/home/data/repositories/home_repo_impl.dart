@@ -1,5 +1,6 @@
 import 'package:dartz/dartz.dart';
-import 'package:email_app/src/core/network/network_info.dart';
+import 'package:currency_converter_app/src/core/network/network_info.dart';
+import 'package:flutter/material.dart';
 
 import '../../../../core/error/error_handler.dart';
 import '../../../../core/error/failure.dart';
@@ -17,21 +18,26 @@ class HomeRepositoryImpl extends HomeRepository {
 
   @override
   Future<Either<Failure, List>> getData(
-      int page, String startDate, String endDate) async {
+    String startDate,
+    String endDate,
+    String baseCurrency,
+    String targetCurrency,
+  ) async {
     if (await networkInfo.isConnected) {
       try {
-        //fetch quote from api
-        final data = await _dataSource.getData(page, startDate, endDate);
+        //fetch  from api
+        final data = await _dataSource.getData(
+            startDate, endDate, baseCurrency, targetCurrency);
 
         return Right(data);
       } catch (e) {
-        print('error in repo with res ${e.toString()}');
+        debugPrint('error in repo with res ${e.toString()}');
 
         return Left(ErrorHandler.handle(e).failure);
       }
     } else {
       //from cache
-      return Left(DataSource.CACHE_ERROR.getFailure());
+      return Left(DataSource.NO_INTERNET_CONNECTION.getFailure());
 
       // try {
       //   return const Right([]);

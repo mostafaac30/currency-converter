@@ -6,6 +6,19 @@ part of 'timeseries_model.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
+TimeSeriesModel _$TimeSeriesModelFromJson(Map<String, dynamic> json) =>
+    TimeSeriesModel(
+      motd: Motd.fromJson(json['motd'] as Map<String, dynamic>),
+      success: json['success'] as bool,
+      timeseries: json['timeseries'] as bool,
+      baseCurrency: json['base'] as String,
+      startDate: json['start_date'] as String,
+      endDate: json['end_date'] as String,
+      rates: (json['rates'] as List<dynamic>?)
+          ?.map((e) => Rate.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
 Map<String, dynamic> _$TimeSeriesModelToJson(TimeSeriesModel instance) =>
     <String, dynamic>{
       'motd': instance.motd,

@@ -1,4 +1,4 @@
-import 'package:email_app/src/features/home/data/models/rate.dart';
+import 'package:currency_converter_app/src/features/home/data/models/rate.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
@@ -54,62 +54,56 @@ class _RateWidgetState extends State<RateWidget> {
   @override
   Widget build(BuildContext context) {
     return Card(
-      elevation: 6,
+      elevation: 0,
       color: ColorManager.primaryColor,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(AppSize.s8),
+      ),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: AppPadding.p20),
-        child: Row(
+        padding: const EdgeInsets.symmetric(
+            horizontal: AppPadding.p10, vertical: AppPadding.p10),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Flexible(
-                        flex: 2,
-                        child: Text(
-                          currency,
-                          style: getBoldStyle(
-                            fontSize: FontSize.s14,
-                            color: ColorManager.black100Color,
-                          ),
-                          overflow: TextOverflow.ellipsis,
-                          maxLines: 1,
-                        ),
-                      ),
-                      const SizedBox(width: 16.0),
-                      Text(
-                        rate,
-                        style: TextStyle(
-                          fontSize: FontSize.s12,
-                          color: ColorManager.gray600,
-                        ),
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: AppSize.s8),
-                  Text(
-                    widget.country,
-                    style: getMediumStyle(
-                      fontSize: FontSize.s12,
-                      color: ColorManager.secondary4Color,
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Flexible(
+                  flex: 2,
+                  child: Text(
+                    currency,
+                    style: getBoldStyle(
+                      fontSize: FontSize.s14,
+                      color: ColorManager.secondary5Color,
                     ),
                     overflow: TextOverflow.ellipsis,
-                    maxLines: 2,
+                    maxLines: 1,
                   ),
-                  const SizedBox(height: AppSize.s8),
-                ],
+                ),
+                const Spacer(),
+                Image.asset(
+                  ImageAssets.rightArrow,
+                ),
+                Text(
+                  rate,
+                  style: TextStyle(
+                    fontSize: FontSize.s12,
+                    color: ColorManager.secondary4Color,
+                  ),
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ],
+            ),
+            const SizedBox(height: AppSize.s8),
+            Text(
+              widget.country,
+              style: getMediumStyle(
+                fontSize: FontSize.s12,
+                color: ColorManager.secondary4Color,
               ),
+              overflow: TextOverflow.ellipsis,
+              maxLines: 2,
             ),
-            // add last message here
-            const SizedBox(width: AppSize.s6),
-            Image.asset(
-              ImageAssets.rightArrow,
-            ),
-            const SizedBox(width: AppSize.s6),
           ],
         ),
       ),

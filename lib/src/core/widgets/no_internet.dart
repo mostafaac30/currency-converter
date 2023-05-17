@@ -1,10 +1,12 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
-import 'package:email_app/src/core/utils/assets_manager.dart';
-import 'package:email_app/src/core/utils/color_manager.dart';
-import 'package:email_app/src/core/utils/strings_manager.dart';
-import 'package:email_app/src/core/utils/styles_manager.dart';
-import 'package:email_app/src/core/utils/values_manager.dart';
+import 'package:currency_converter_app/src/core/utils/assets_manager.dart';
+import 'package:currency_converter_app/src/core/utils/color_manager.dart';
+import 'package:currency_converter_app/src/core/utils/strings_manager.dart';
+import 'package:currency_converter_app/src/core/utils/styles_manager.dart';
+import 'package:currency_converter_app/src/core/utils/values_manager.dart';
 import 'package:sizer/sizer.dart';
 
 import '../../injector.dart';
@@ -19,14 +21,12 @@ class NoInternet extends StatefulWidget {
 }
 
 class _NoInternetState extends State<NoInternet> {
-  var listener;
-  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+  late StreamSubscription<InternetConnectionStatus> listener;
 
   @override
   void initState() {
     super.initState();
     listener = sl<NetworkInfo>().connectionState.listen((status) {
-      print('internet connection ');
       if (mounted && status == InternetConnectionStatus.connected) {
         Navigator.pop(context);
       }
@@ -40,12 +40,11 @@ class _NoInternetState extends State<NoInternet> {
   }
 
   Future<bool> checkOnline() async {
-    print('checkOnline');
-
     SnackBar snackBar = SnackBar(
       content: Text(
         AppStrings.onlineCheck,
-        style: getBoldStyle(color: ColorManager.bg2, fontSize: FontSize.s14),
+        style: getBoldStyle(
+            color: ColorManager.primaryColor, fontSize: FontSize.s14),
       ),
     );
 
@@ -68,18 +67,9 @@ class _NoInternetState extends State<NoInternet> {
         displacement: 150,
         child: Scaffold(
           body: Container(
-            color: ColorManager.black100Color.withOpacity(.8),
+            color: ColorManager.secondary5Color.withOpacity(.8),
             child: ListView(
-              // mainAxisAlignment: MainAxisAlignment.start,
-              // crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                // Padding(
-                //   padding: const EdgeInsets.only(
-                //       left: AppPadding.p10, top: AppPadding.p80),
-                //   child: Align(
-                //       alignment: Alignment.topLeft,
-                //       child: Image.asset(ImageAssets.close, width: AppSize.w9_6)),
-                // ),
                 SizedBox(
                   height: 27.h + AppPadding.p80,
                   width: 100.w,
@@ -90,7 +80,7 @@ class _NoInternetState extends State<NoInternet> {
                 ),
                 Text(
                   AppStrings.noInternet,
-                  style: getBoldStyle(color: ColorManager.grey100),
+                  style: getBoldStyle(color: ColorManager.secondary4Color),
                   textAlign: TextAlign.center,
                 )
               ],

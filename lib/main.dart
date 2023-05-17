@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:email_app/src/core/utils/bloc_Observer.dart';
-import 'package:email_app/src/core/widgets/wrong.dart';
-import 'package:email_app/src/injector.dart' as di;
+import 'package:currency_converter_app/src/core/utils/bloc_Observer.dart';
+import 'package:currency_converter_app/src/core/widgets/wrong.dart';
+import 'package:currency_converter_app/src/injector.dart' as di;
 
 import 'src/features/app.dart';
 
