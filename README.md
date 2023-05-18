@@ -35,7 +35,7 @@ This is a Flutter app that allows users to convert currencies using the Exchange
     
 4.  Run the following command to fetch the project dependencies:
     
-    arduinoCopy code
+    arduino
     
     `flutter pub get`
     
@@ -43,7 +43,7 @@ This is a Flutter app that allows users to convert currencies using the Exchange
     
 6.  Run the app using the following command:
     
-    arduinoCopy code
+    arduino
     
     `flutter run`
     
